@@ -1,0 +1,17 @@
+body {
+  width: 1320px;
+  margin: 0 auto;
+}
+.icon-box {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  color: blueviolet;
+}
+.icons {
+  font-size: 5em;
+  padding: 0;
+  margin: 0;
+}
