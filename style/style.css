@@ -33,11 +33,11 @@ body {
   font-size: 22px;
 }
 .main-container {
-  padding: 120px 20px;
+  padding: 80px 20px;
   text-align: center;
   background-color: var(--main-bg-color);
 }
-.main-container p {
+.greet {
   font-size: 36px;
   font-weight: 700;
   margin: 0;
@@ -55,7 +55,7 @@ body {
   margin: 20px 0;
 }
 .btn {
-  margin: 50px 0 0;
+  margin: 40px 0 0;
   background-color: var(--main-color);
   padding: 5px 20px;
   font-size: 30px;
@@ -68,6 +68,11 @@ body {
 }
 .btn:hover {
   box-shadow: 0 0 10px var(--secondary-color);
+  opacity: 1;
+}
+.btn-contact {
+  margin: 10px auto;
+  color: gold;
 }
 .main-row {
   margin: 40px 0;
@@ -99,7 +104,10 @@ body {
   font-weight: 700;
   text-align: center;
 }
-
+.project-description {
+  font-size: 20px;
+  font-family: var(--default-font);
+}
 .about-me-left h1 {
   font-size: 68px;
 }
@@ -112,6 +120,12 @@ body {
   font-size: 18px;
   font-weight: 500;
   line-height: 1.4;
+}
+.work-img {
+  max-height: 340px;
+  overflow: hidden;
+  max-width: 100%;
+  /* padding-left: 50px; */
 }
 /* .icon-box {
   width: 100%;
